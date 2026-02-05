@@ -1,1 +1,5 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
+Modelling/**/*.py linguist-detectable=true
+Preprocessing/**/*.py linguist-detectable=true
+Comparison/**/*.py linguist-detectable=true
+*.pkl filter=lfs diff=lfs merge=lfs -text
